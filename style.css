@@ -26,7 +26,9 @@
      position: relative;
      transition: all 1.5s linear;
      transform-style: preserve-3d;
-     backface-visibility: hidden
+     backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
 
  }
  .con:hover .flex-item{
@@ -52,6 +54,8 @@
      background: linear-gradient(#08aeea, #2af598);
      z-index: 2;
      backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
  }
 
  .back{
