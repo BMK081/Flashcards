@@ -1,40 +1,41 @@
- .flex-container {
-     background: linear-gradient(lightslategrey, black);
-     border-radius: 10px;
-     margin: 120px;
-     columns: 3;
-     padding: 66px 66px;
-     justify-content: space-around;
-     display: grid;
-     grid-template-columns: 150px 150px 150px;
-     grid-template-rows: 150px 150px 150px;
-     grid-row-gap: 100px;
-     border: 3px solid black;
+.flex-container {
+    background: linear-gradient(lightslategrey, black);
+    border-radius: 10px;
+    margin: 120px;
+    columns: 3;
+    padding: 66px 66px;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    grid-row-gap: 100px;
+    border: 3px solid black;
 
 
- }
+}
 
- .flex-item {
-     background: burlywood;
-     width: 200px;
-     height: 200px;
-     border-radius: 20px;
-     text-align: center;
-     font-size: 40px;
-     border: 1px solid black;
-     margin: auto;
-     position: relative;
-     transition: all 1.5s linear;
-     transform-style: preserve-3d;
-     backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
+.flex-item {
+    background: burlywood;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+    transition: all 1.5s linear;
+    transform-style: preserve-3d;
+    backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
+}
 
- }
- .con:hover .flex-item{
-     transform: rotateY(180deg);
 
- }
+.con:hover .flex-item{
+    transform: rotateY(180deg);
+
+}
 
 
 
@@ -50,43 +51,43 @@
     position: absolute;
 
 }
- .front{
-     background: linear-gradient(#08aeea, #2af598);
-     z-index: 2;
-     backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
+.front{
+    background: linear-gradient(#08aeea, #2af598);
+    z-index: 2;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
- }
+}
 
- .back{
-     background: linear-gradient(#f8da61, #ff5acd);
-     z-index: 1;
-     transform: rotateY(180deg);
- }
+.back{
+    background: linear-gradient(#f8da61, #ff5acd);
+    z-index: 1;
+    transform: rotateY(180deg);
+}
 
 .con{
     perspective: 1000px;
+
 }
 
 
- .quiz{
-     background: linear-gradient(skyblue, cadetblue);
-     border-radius: 10px;
-     margin: 100px;
-     padding: 25px;
- }
+.quiz{
+    background: linear-gradient(skyblue, cadetblue);
+    border-radius: 10px;
+    margin: 100px;
+    padding: 25px;
+}
 
 
- h1{
-     font-size: 100px;
-     color: black;
-     text-align: center;
- }
+h1{
+    font-size: 100px;
+    color: black;
+    text-align: center;
+}
 
 
- body{
-     background: linear-gradient(black, lightslategrey );
-     font-family: 'Viaoda Libre', cursive;
-     font-weight: bolder;
- }
-
+body{
+    background: black;
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: bolder;
+}
